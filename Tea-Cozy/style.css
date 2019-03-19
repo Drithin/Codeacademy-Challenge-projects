@@ -1,0 +1,8 @@
+* {
+	box-sizing: border-box;
+}
+
+.navbar .navbar-brand img{
+	height: 50px; 
+	margin-left: 10px;
+}
