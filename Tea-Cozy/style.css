@@ -2,7 +2,97 @@
 	box-sizing: border-box;
 }
 
+body{
+	background-color: black;
+}
+
+.navbar{
+	background-color: black !important;
+	height: 69px;
+	border-bottom: 1px solid seashell;
+}
 .navbar .navbar-brand img{
 	height: 50px; 
 	margin-left: 10px;
+}
+
+
+
+.navbar .navbar-nav li a{
+	text-decoration: underline;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	opacity: 0.9;
+}
+
+.main-img img{
+	width: 100%;
+	height: 700px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main-text{
+	position: absolute;
+	top: 350px;
+	width: 100%;
+	background-color: black;
+	color: seashell;
+	text-align: center;
+}
+
+.tea-month-text{
+	text-align: center;
+	color: seashell;
+	margin-top: 200px;
+}
+
+
+.row {
+  display: flex;
+  float: center;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.row .column img{
+	width: 300px;
+	height: 200px;	
+}
+
+.locations img{
+	height: 500px;
+	width: 100%;
+	margin-top: 80px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.above-footer{
+	height: 200px;
+	color: seashell;
+	text-align: center;
+}
+
+.above-footer h2{
+	margin-bottom: 40px;
+}
+
+.above-footer h5{
+	margin-bottom: 40px;
+}
+
+.copyright-text p{
+	margin-left: 20px;
+	color: seashell;
+	text-align: left;
 }
